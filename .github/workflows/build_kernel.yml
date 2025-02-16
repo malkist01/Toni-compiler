@@ -246,5 +246,5 @@ jobs:
 
       - name: Upload Telegram
         run: |
-          wget https://raw.githubusercontent.com/malkist01/Kernel_CI/master/upload.sh
+          wget https://raw.githubusercontent.com/malkist01/Teletubies-compiler/master/upload.sh
           bash upload.sh
