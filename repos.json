@@ -1,0 +1,45 @@
+[
+  {
+    "kernelSource": {
+      "name": "kernel",
+      "repo": "https://github.com/malkist01/Teletubies-Ksu.git",
+      "branch": "KSU",
+      "device": "mido",
+      "defconfig": "teletubies-ksu_defconfig"
+  },
+    "toolchains": [
+      {
+        "repo": "https://gitlab.com/kutemeikito/rastamod69-clang.git",
+        "branch": "clang-20.0",
+        "name": "rastamod69-clang",
+        "binPath": ["bin"]
+      }
+    ],
+    "params": {
+     "ARCH": "arm64",
+      "LLVM": "1",
+      "LLVM_IAS": "1",
+      "CC": "rastamod69-clang/bin/clang",
+      "externalCommand": {
+        "TRIPLE_COMPILE": "rastamod69-clang/bin/aarch64-linux-gnu-",
+        "CROSS_COMPILE": "rastamod69-clang/bin/aarch64-linux-gnu-",
+        "CROSS_COMPILE_ARM32": "rastamod69-clang/bin/arm-linux-gnueabi-",
+        "AR": "rastamod69-clang/bin/llvm-ar",
+        "NM": "rastamod69-clang/bin/llvm-nm",
+        "OBJCOPY": "rastamod69-clang/bin/llvm-objcopy",
+        "OBJDUMP": "rastamod69-clang/bin/llvm-objdump",
+        "READELF": "rastamod69-clang/bin/llvm-readelf",
+        "OBJSIZE": "rastamod69-clang/bin/llvm-size",
+        "STRIP": "rastamod69-clang/bin/llvm-strip",
+        "LLVM_AR": "rastamod69-clang/bin/llvm-ar",
+        "LLVM_DIS": "rastamod69-clang/bin/llvm-dis"
+      }
+    },
+    "AnyKernel3": {
+      "use": true,
+      "release": true,
+      "repo": "https://github.com/malkist01/anykernel.git",
+      "branch": "master"
+    }
+  }
+]
