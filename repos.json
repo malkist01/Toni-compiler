@@ -3,10 +3,10 @@
   {
     "kernelSource": {
       "name": "kernel",
-      "repo": "https://github.com/malkist01/Teletubies-Ksu.git",
-      "branch": "Test",
+      "repo": "https://github.com/malkist01/teletubies01.git",
+      "branch": "new",
       "device": "mido",
-      "defconfig": "teletubies-ksu_defconfig"
+      "defconfig": "teletubies_defconfig"
   },
     "toolchains": [
       {
