@@ -22,7 +22,7 @@ jobs:
       - name: "Checkout"
         uses: actions/checkout@v4
 
-      - name: "Generate CI"
+      - name: "Generate"
         id: generate-matrix
         run: |
           echo "repos<<EOF" >> $GITHUB_OUTPUT
@@ -66,10 +66,8 @@ jobs:
     steps:
       - name: "Install Dependency"
         run: |
-          sudo apt-get update
-          sudo apt-get install -y build-essential clang bc bison libssl-dev libfl-dev libncurses5-dev libzstd-dev libtinfo5
-          sudo apt-get install -y curl git ftp lftp wget libarchive-tools ccache python3
-          sudo apt-get install -y zip unzip tar gzip bzip2 rar unrar cpio
+          git clone https://github.com/akhilnarang/scripts x
+          cd x/setup && bash android_build_env.sh
 
       - name: Set swap to 10G
         uses: pierotofy/set-swap-space@master
