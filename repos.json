@@ -10,8 +10,8 @@
   },
     "toolchains": [
       {
-        "repo": "https://gitlab.com/kutemeikito/rastamod69-clang.git",
-        "branch": "clang-20.0",
+        "repo": "https://gitlab.com/crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r547379.git",
+        "branch": "15.0",
         "name": "rastamod69-clang",
         "binPath": ["bin"]
       }
