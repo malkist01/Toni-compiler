@@ -1,10 +1,6 @@
 #!/usr/bin/env bash
 
 DATE=$(date +"%Y%m%d-%H%M")
-HOST="android-server"
-export HOST
-USER="malkist"
-export USER
 BUILD_BY="Build with ❤️ by Malkist"
 export BUILD_BY
 DEVICE="Redmi Note 4"
