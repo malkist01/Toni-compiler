@@ -3,9 +3,9 @@
   {
     "kernelSource": {
       "name": "kernel",
-      "repo": "https://github.com/malkist01/teletubies01.git",
-      "branch": "new",
-      "device": "mido",
+      "repo": "https://github.com/malkist01/Toni-kernel.git",
+      "branch": "main",
+      "device": "santoni",
       "defconfig": "teletubies_defconfig"
   },
     "toolchains": [
