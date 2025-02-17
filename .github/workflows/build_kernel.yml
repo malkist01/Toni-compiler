@@ -89,8 +89,8 @@ jobs:
           git clone --recursive --depth=1 -j $(nproc) --branch $KERNEL_BRANCH $KERNEL_REPO $KERNEL_NAME
 
           echo "Clone kernel source => ($KERNEL_REPO)"
-
-     curl -sL https://raw.githubusercontent.com/galaxybuild-project/tools/refs/heads/main/Scripts/KernelSU-SuSFS.sh | bash -s next
+          
+          curl -sL https://raw.githubusercontent.com/galaxybuild-project/tools/refs/heads/main/Scripts/KernelSU-SuSFS.sh | bash -s next
      
       - name: "Clone Clang"
         env:
