@@ -3,9 +3,9 @@
 DATE=$(date +"%Y%m%d-%H%M")
 BUILD_BY="Build with ❤️ by Malkist"
 export BUILD_BY
-DEVICE="Redmi Note 4"
+DEVICE="Redmi 4X"
 export DEVICE
-CODENAME="mido"
+CODENAME="santoni"
 export CODENAME
 ID="-1002287610863"
 export ID
