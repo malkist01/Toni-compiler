@@ -90,8 +90,6 @@ jobs:
 
           echo "Clone kernel source => ($KERNEL_REPO)"
           
-          curl -sL https://raw.githubusercontent.com/galaxybuild-project/tools/refs/heads/main/Scripts/KernelSU-SuSFS.sh | bash -s next
-     
       - name: "Clone Clang"
         env:
           toolchains: "${{ toJSON(matrix.repos.toolchains) }}"
@@ -192,8 +190,8 @@ jobs:
 
       - name: Set Git Config
         run: |
-          git config --global user.name "malkidt01"
-          git config --global user.email "malkist069d@gmail.com"
+          git config --global user.name "malkit01"
+          git config --global user.email "malkist069@gmail.com"
 
       - name: "Build kernel"
         working-directory: ${{ env.KERNEL_NAME }}
