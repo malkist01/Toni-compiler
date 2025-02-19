@@ -39,7 +39,7 @@
     "AnyKernel3": {
       "use": true,
       "release": true,
-      "repo": "https://github.com/malkist01/anykernel.git",
+      "repo": "https://github.com/malkist01/anykernel3.git",
       "branch": "master"
     }
   }
