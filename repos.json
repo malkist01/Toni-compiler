@@ -3,9 +3,9 @@
   {
     "kernelSource": {
       "name": "kernel",
-      "repo": "https://github.com/malkist01/Toni-kernel.git",
+      "repo": "https://github.com/malkist01/Android-A15.git",
       "branch": "main",
-      "device": "santoni",
+      "device": "mido",
       "defconfig": "teletubies_defconfig"
   },
     "toolchains": [
